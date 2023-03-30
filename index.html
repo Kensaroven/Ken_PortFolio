@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ken's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Profile.jpg" alt="Ken Saroven" height = "220" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ken Saroven">Ken Saroven</h1>
+
+          <p class="title" style="text-align:center">Data Scientist
+            <br>Story Teller
+            <br>Machine Learning Enthusiast
+          </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:saroven11@gmail.com" class="contact-link">saroven11@gmail.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Toronto, Ontario, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ken-saroven/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/saroven.manivannan/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/Saroven11" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_the_sailor_man/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Kensaroven" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am currently a Data Scientist and a Master of Management Analytics candidate at the 
+            Rotman School of Management, University of Toronto.
+          </p>
+
+          <p>
+            My passion for data is never ending as I age through and witness the wonders it can perform. 
+            I am an experienced data scientist with 4 years of work experience in the field of analytics and 
+            wish to contribute more over challenging business problems. I am an avid marathonist, pencil artist 
+            and a music lover. 
+          </p>
+
+          <p>
+            I welcome feedback and would be happy to collaborate and enjoy learning with fun
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">I reveal what data hides</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/analytics.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  I analyze, transform, wrangle and perform statistical tests and techniques on data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/machine_learning.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  State-of-the-art model development for several business problems in hooby and professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/visualization.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Visualization</h4>
+
+                <p class="service-item-text">
+                  Well-versed with some of the key business representations and exhibition of effective trends.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/run.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Run Enthusiast</h4>
+
+                <p class="service-item-text">
+                  I love running from a very small age and right now run marathons.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Awards & Honors</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.jpeg" alt="SG-1" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>STAR of the Quarter 1</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Awarded for several streams of work in FCCR project and quick turn-around for the deliverables in a short span
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.jpeg" alt="SG-2" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>STAR of the Quarter 2</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Recognized for the work in SIRON Remediation and flagged the suspicious transactions and corrected the segments of ETL accordingly
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.jpeg" alt="Mu Sigma" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Impact Award</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Received impact award for deliverable given beyond expectations
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="SSN" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Placement Co-ordinator</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Acted as the placement co-ordinator of the batch in undergrad.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+
+          <h2 class="h2 article-title" style="display: inline-block;
+          ">          
+            <a href="https://drive.google.com/file/d/1M3-vKd_GwQdySPS2NxuGaNpDAIniA2gl/view?usp=sharing" class="article-link" target=”_blank” >Resume  &nbsp; 
+              <i class="fa fa fa-external-link fa-2xs" style="color: #ca7575;"></i>
+            </a>
+          </h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rotman School of Management, University of Toronto</h4>
+
+              <span>August 2022 — June 2023</span>
+
+              <p class="timeline-text">
+                Management Analytics: Member of the Rotman Operations Management Association, Management Consulting Association and Rotman Business Analytics Club.
+                Well-versed in Supply Chain Optimization, Probabilistic Model building and Prescriptive Analytics 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SSN College of Engineering, Anna University</h4>
+
+              <span>July 2013 — May 2017</span>
+
+              <p class="timeline-text">
+                Clubs and activities: Member of Design Club, Active Athletic center.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            
+            <li class="timeline-item">
+              
+              <h4 class="h4 timeline-item-title">Cymax Group of Technologies</h4>
+              <h5 class="h5 timeline-item-title">Data Science Co-Op</h5>
+
+              <span>October 2022 — Present</span>
+
+              <p class="timeline-text">
+                A framework to suggest effective marketing spend and ensure that no money is wasted in the promotion process
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              
+              <h4 class="h4 timeline-item-title">Société Générale Global Solution Center</h4>
+              <h5 class="h5 timeline-item-title">Data Scientist</h5>
+
+              <span>August 2020 — July 2022</span>
+
+              <p class="timeline-text">
+                <b>Financial Crime Risk Client Rating (FCCR) : Risk Evaluation</b> <br>
+                A risk rating three-step model was created using the KYC data and the model is monitored and evaluated on frequent intervals  <br>
+                <br>
+                <b>SIRON Remediation : ETL Fixture</b> <br>
+                The transaction monitoring system is evaluated and then the ETL is mimicked to understand the issue with the missed transactions that can potentially cause regulatory fines for the bank <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mu Sigma Business Solutions</h4>
+              <h5 class="h5 timeline-item-title">Decision Scientist</h5>
+
+              <span>January 2019 — July 2020</span>
+
+              <p class="timeline-text">
+                <b>Value-based Contract</b> <br>
+                Helped a Fortune 100 pharmaceutical giant with a business contract to demonstrate the efficacy of the drug in the therapeutic area<br>
+                <br>
+                <b>Market Trend Analytics</b> <br>
+                A leading biologic drug was evaluated on some of the KPIs to identify the potential of the drug to make key business decisions<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Rubber Manufacturers Research Association (IRMRA)</h4>
+              <h5 class="h5 timeline-item-title">Executive Trainee</h5>
+
+              <span>April 2018 — December 2018</span>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TNQ Technologies</h4>
+              <h5 class="h5 timeline-item-title">Language Editor</h5>
+
+              <span>September 2017 — February 2018</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Statistical Modelling</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R-Studio</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau | Power BI</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Deep Learning | Keras | TensorFlow | NLP</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Optimization Techniques</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML | CSS</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Hobby Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Professional Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Hobby Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Professional Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="hobby projects">
+              
+              <a href="https://github.com/Kensaroven/Credit_Risk_Prediction" class="project-link">
+              <h2 class="project-title">Credit Risk Prediction</h2></a><br>
+              
+                <p class = "project-text"> 
+                  In this dataset, each entry represents a person who takes a credit by a bank. Each person is classified as good or bad credit risks according to the set of attributes. The link to the original dataset can be found below. <br>
+                  <br>
+                  It is almost impossible to understand the original dataset due to its complicated system of categories and symbols. Thus, I wrote a small Python script to convert it into a readable CSV file. Several columns are simply ignored, because in my opinion either they are not important or their descriptions are obscure<br>
+                  <br>
+                  <h4 class="project-sub-title">K-Means</h4><br>
+                    <img src="https://github.com/Kensaroven/Credit_Risk_Prediction/blob/main/Kmeans.png?raw=true" alt="credit risk prediction" width="600" loading="lazy">
+                    <img src="https://github.com/Kensaroven/Credit_Risk_Prediction/blob/main/Kmenas%20scatter.png?raw=true?raw=true" alt="credit risk prediction" width="600" loading="lazy"><br>
+                    <p class = "project-text">35.87 seems to be the mean duration and 6911.78 seems to be the mean credit amount of the cluster 1 where we have the riskiest bunch of customers</p><br>
+                  <h4 class="project-sub-title">Hierarchial</h4><br>
+                    <img src="https://github.com/Kensaroven/Credit_Risk_Prediction/blob/main/Hierarchial%20Linkage.png?raw=true" alt="credit risk prediction" width="600" loading="lazy">
+                    <img src="https://github.com/Kensaroven/Credit_Risk_Prediction/blob/main/Hierarchial%20scatter.png?raw=true" alt="credit risk prediction" width="600" loading="lazy"><br>
+                    <p class = "project-text">41.01 seems to be the mean duration and 8507.35 seems to be the mean credit amount of the cluster 1 where we have the riskiest bunch of customers</p><br>
+                  <h4 class="project-sub-title">DB-Scan</h4><br>
+                    <img src="https://github.com/Kensaroven/Credit_Risk_Prediction/blob/main/DBscan.png?raw=true" alt="credit risk prediction" width="600" loading="lazy">
+                    <img src="https://github.com/Kensaroven/Credit_Risk_Prediction/blob/main/dbscan%20hierarchial.png?raw=true" alt="credit risk prediction" width="600" loading="lazy"><br>
+                    <p class = "project-text">27.66 seems to be the mean duration and 5599.62 seems to be the mean credit amount of the cluster -1 where we have the riskiest bunch of customers</p><br>
+                </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hobby projects">
+              
+              <a href="https://github.com/Kensaroven/CO2_Emission_Prediciton" class="project-link">
+              <h2 class="project-title">CO2 Emission Prediction</h2></a><br>
+
+                <p class = "project-text"> 
+                  The motive is to predict the CO2 emission by a vehicle based on the attributes of the vehicles like Model, Transmission, Fuel type, and Fuel Consumption. <br>
+                  <br>
+                  The tailpipe emissions of carbon dioxide (in grams per kilometre) for combined city and highway driving<br>
+                  <br>
+                  <h4 class="project-sub-title">Evaluation Results</h4><br>
+                    <img src="https://github.com/Kensaroven/CO2_Emission_Prediciton/blob/main/Screenshot%202023-03-26%20at%203.58.13%20PM.png?raw=true" alt="CO2 emission" width="600" loading="lazy">
+                    <br><table class = "project-table">
+                      <tr class = "project-table">
+                        <th><b>Method</b></th>
+                        <th><b>Score</b></th>
+                      </tr>
+                      <tr class = "project-table">
+                        <td>K-Neighbours Regressor</td>
+                        <td>0.987</td>
+                      </tr>
+                      <tr class = "project-table">
+                        <td>Decision Tree Regressor</td>
+                        <td>0.858</td>
+                      </tr>
+                    </table><br>
+                </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hobby projects">
+              
+              <a href="https://github.com/Kensaroven/Attrition_Prediction_Classification" class="project-link">
+              <h2 class="project-title">Attrition Identification - Classification & Ensemble techniques</h2></a><br>
+
+                <p class = "project-text"> 
+                  Our client is ABC a leading firm and is doing well in the sector. It is recently facing a steep increase in its employee attrition . Employee attrition has gone up from 14% to 25% in the last 1 year . We are asked to prepare a strategy to immediately tackle this issue such that the firm’s business is not hampered and also to propose an efficient employee satisfaction program for long run. Currently, no such program is in place . Further salary hikes are not an option. <br>
+                  <br>
+                  <h4 class="project-sub-title">Evaluation Results</h4><br>
+                    <br><table class = "project-table">
+                      <tr class = "project-table">
+                        <th><b>Method</b></th>
+                        <th><b>AUC</b></th>
+                        <th><b>Precision</b></th>
+                        <th><b>Recall</b></th>
+                        <th><b>F1 Score</b></th>
+                        <th><b>Accuracy</b></th>
+                      </tr>
+                      <tr class = "project-table">
+                        <td>Logistic Regression</td>
+                        <td>0.717</td>
+                        <td>0.221</td>
+                        <td>0.641</td>
+                        <td>0.328</td>
+                        <td>0.653</td>
+                      </tr>
+                      <tr class = "project-table">
+                        <td>Decision Trees</td>
+                        <td>0.584</td>
+                        <td>0.221</td>
+                        <td>0.641</td>
+                        <td>0.328</td>
+                        <td>0.653</td>
+                      </tr>
+                      <tr class = "project-table">
+                        <td>Random Forest</td>
+                        <td>0.664</td>
+                        <td>0.5</td>
+                        <td>0.076</td>
+                        <td>0.133</td>
+                        <td>0.867</td>
+                      </tr>
+                      <tr class = "project-table">
+                        <td>KNN</td>
+                        <td>0.620</td>
+                        <td>0.444</td>
+                        <td>0.205</td>
+                        <td>0.280</td>
+                        <td>0.860</td>
+                      </tr>
+                    </table><br>
+                  <b class = "project-text">KMeans  - Silhouette Score (2 clusters) = 0.7079</b><br>
+                  <br>
+                </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hobby projects">
+              
+              <a href="https://github.com/Kensaroven/Decision-Tree-Exercise" class="project-link">
+              <h2 class="project-title">Decision Tree Exercise</h2></a><br>
+
+                <p class = "project-text"> 
+                  This is a decision tree exercise done as a part of the academic work and some of the key business questions are addressed over the process of solving the case. <br>
+                  <br>
+                  <b>The Case:</b><br>
+                  <br>
+                  Competitive Auctions on eBay.com. The file eBayAuctions.xlsx contains information on 1972 auctions that transacted on eBay.com between May to June 2004. The goal is to use these data to build a model that will classify auctions as competitive or non-competitive. A competitive auction is defined as an auction with at least two bids placed on the item auctioned. The data include variables that describe the item (auction category), the seller (their eBay rating), and the auction terms that the seller selected (auction duration, opening price, currency, day-of-week of auction close). In addition, we have the price at which the auction closed. The task is to predict whether or not the auction will be competitive.<br>
+                  <br>
+                  <h4 class="project-sub-title">Evaluation results Predictive performance of the model</h4><br>
+                    <img src="https://github.com/Kensaroven/Decision-Tree-Exercise/blob/main/DT%20Exercise.png?raw=true" alt="CO2 emission" width="600" loading="lazy">
+                    <br>
+                </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hobby projects">
+              <a href="https://github.com/Kensaroven/Movie-Review-NLP" class="project-link"> 
+                <h2 class="project-title">Movie Review - NLP techniques</h2></a><br>
+
+                <p class = "project-text"> 
+                  This is a Natural Language Processing of a movie using the review by creating a corpus and then classifying it based on the sentiments and then building a word cloud to visualize the sentiments of the movies A novice approach to try and predict the negative and positive reviews of the movie reviews in the corpus using a simple Neural Network approach. <br>
+                    <br>
+                  <b class = "project-text">A test accuracy of 90.4% is arrived at the end of the model tuning process</b><br>
+                </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="professional projects">
+                <br><h2 class="project-title2">Marketing Spend Optimization (In Progress)</h2><br>
+                <h4 class = "project-sub-title2"> Organization: Cymax Group of Technologies, Remote </h4><br>
+                <img src="./assets/images/marketing.png" alt="Maketing Spend" width="600" loading="lazy"><br>
+                <p class = "project-text"> 
+                  <h4 class="project-sub-title">Process</h4><br>
+                  <p class = "project-text">
+                    Cymax aims to reduce and regulate the marketing spend on its products by ensuring every dollar is utilized on the appropriate product campaigns in an effective way </p><br>
+                  <h4 class="project-sub-title">Approach</h4><br>
+                  <p class = "project-text">
+                  - Several Product Life Cycle (PLC) steps and Advertising metrics are considered for the hypothesis testing <br>
+                  - Hypothesis: Identification of a product Life cycle stage and a prediction rate for the marketing dollar to be invested <br>
+                  - Historic sales and product data are considered for analysis </p><br>
+                  <h4 class="project-sub-title">Solution/Impact</h4><br>
+                  <p class = "project-text">
+                    - A framework which can suggest the PLC phase<br>
+                    - A predictive model that can suggest the amount of money to be invested in the campaign of a product based on the Product Life Cycle and the historic data<br>
+                    - <b>Impact</b>: Hypothesis Testing in progress</p><br>
+                  <h5 class="project-text">Software used: Power BI, Excel, Python</h5><br>
+                </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="professional projects">
+              <br><h2 class="project-title2">Financial Crime Risk Client Rating</h2><br>
+              <h4 class = "project-sub-title2"> Organization: Société Générale Global Solution Center, India</h4><br>
+              <img src="./assets/images/fccr.jpeg" alt="FCCR" width="600" loading="lazy"><br>
+              <p class = "project-text"> 
+                <h4 class="project-sub-title">Process</h4><br>
+                <p class = "project-text">
+                  SG wanted to standardize the KYC process across the bank entities and needed to understand the client risk to avoid the regulatory fines that can be imposed due to any suspicious transactions. Any imposition of regulatory fines stands as a loss of revenue from the original stream of operations. </p><br>
+                <h4 class="project-sub-title">Approach</h4><br>
+                <p class = "project-text">
+                - A risk rating framework was developed based on the transactional, customer, and geographic data from several regions of the bank. A three-step logistic model is used to coin customers based on their risk possession<br>
+                - Monitored the data drift and regulatory variations of regions periodically </p><br>
+                <h4 class="project-sub-title">Solution/Impact</h4><br>
+                <p class = "project-text">
+                  - Built a reusable framework that could generate report to analyze the data drift, Population stability index, and model metrics <br>
+                  - 30% of the influencing factors in the data was identified and fixed <br>
+                  - <b>Impact</b>: Saved 40-man hours per month by creating reusable framework, 30% data drift was identified, and major entities were onboarded to the framework<br>
+                  <br>
+                <h5 class="project-text">Software used: SQL, RStudio, Spark, Power BI, Sparklyr</h5><br>
+              </p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="professional projects">
+              <br><h2 class="project-title2">SIRON ETL - Remediation</h2><br>
+              <h4 class = "project-sub-title2"> Organization: Société Générale Global Solution Center, India</h4><br>
+              <img src="./assets/images/etl.jpeg" alt="FCCR" width="600" loading="lazy"><br>
+              <p class = "project-text"> 
+                <h4 class="project-sub-title">Process</h4><br>
+                <p class = "project-text">
+                  Transaction Monitoring system has identified some of the issues with the data transported to the SIRON AML tool. The tool was suspicious in its function and based on a UAT test it was identified the tool has some issues with consuming and evaluating the data. </p><br>
+                <h4 class="project-sub-title">Approach</h4><br>
+                <p class = "project-text">
+                - The SIRON tool has to be mimicked of its operation and the process has to be evaluated in the manual stream for several suspicious entities of the bank<br>
+                - The data completeness, conformity has to be evaluated between the Data Warehouse -> ETL tool -> SIRON </p><br>
+                <h4 class="project-sub-title">Solution/Impact</h4><br>
+                <p class = "project-text">
+                  - A Spark framework was developed based on several interaction with the stakeholders<br>
+                  - <b>Impact</b>: Eight entities of the bank were fixed from the issue<br>
+                  - <b>Impact</b>: A monetary fine upto 90% of the revenue was saved<br>
+                  <br>
+                <h5 class="project-text">Software used: SQL, Python, PySpark, Powerpoint</h5><br>
+              </p>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="professional projects">
+              <br><h2 class="project-title2">Value Based Contract</h2><br>
+              <h4 class = "project-sub-title2"> Organization: Mu Sigma Business Solutions, India</h4><br>
+              <img src="./assets/images/vbc.png" alt="FCCR" width="600" loading="lazy"><br>
+              <p class = "project-text"> 
+                <h4 class="project-sub-title">Process</h4><br>
+                <p class = "project-text">
+                  As a further step to improve the potential of a successful drug, a pharma manufacturer undergoes a contract with a service provider to include the drug in the insurance plans. The drug has to pass certain metric to prove that it is the market leader among all other competitors in its therapeutic area. </p><br>
+                <h4 class="project-sub-title">Approach</h4><br>
+                <p class = "project-text">
+                - Claims data is used in this process where we have tried to identify the patients belonging to the class. An effective drug cures the disease and has less adverse effects.<br>
+                - The time taken to develop an adverse effect is incidence rates. Some KPIs that can affect the incidence rates are patient characteristics. </p><br>
+                <h4 class="project-sub-title">Solution/Impact</h4><br>
+                <p class = "project-text">
+                  - We have reported and conducted several analysis using SAS and proved that the drug is a significant winner to sign the contract. An adjusted analysis is also conducted using Propensity scores.<br>
+                  - <b>Impact</b>: Signed the contract after several iterations.<br>
+                  - <b>Impact</b>: 30+ sensitivity analysis is conducted for robust results<br>
+                  <br>
+                <h5 class="project-text">Software used: SQL, Python, SAS, Excel</h5><br>
+              </p>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="professional projects">
+              <br><h2 class="project-title2">Market Trend Analysis</h2><br>
+              <h4 class = "project-sub-title2"> Organization: Mu Sigma Business Solutions, India</h4><br>
+              <img src="./assets/images/marketanalytics.jpeg" alt="FCCR" width="600" loading="lazy"><br>
+              <p class = "project-text"> 
+                <h4 class="project-sub-title">Process</h4><br>
+                <p class = "project-text">
+                  One of the top biologics in the firms immunoscience domain needed a market evaluation to help further business decisions related to marketing and manufacturing. </p><br>
+                <h4 class="project-sub-title">Approach</h4><br>
+                <p class = "project-text">
+                - Patient selection was conducted based on the characteristic using ML classification techniques. <br>
+                - Evaluated pharma metrics that are specific to the drug across its competitors. </p><br>
+                <h4 class="project-sub-title">Solution/Impact</h4><br>
+                <p class = "project-text">
+                  - Reported suitable metrics as a Tableau dashboard and explained the business of the dropping sales. <br>
+                  - <b>Impact</b>: Efficient spend on the future scope of the drug has been planned accordingly. <br>
+                  - <b>Impact</b>: The decline in the market was reported to make necessary manufacturing decisions. <br>
+                  <br>
+                <h5 class="project-text">Software used: SQL, Python, SAS, Tableau</h5><br>
+              </p>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369106.72679494927!2d-79.65824079514913!3d43.71789901030551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1680060380899!5m2!1sen!2sca" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Me</h3>
+
+          <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:saroven11@gmail.com" class="contact-link">saroven11@gmail.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Toronto, Ontario, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
