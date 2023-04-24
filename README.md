@@ -6,5 +6,3 @@ Ken's dsiplay of the hobby and professional works
 
 Mail id: [saroven11@gmail.com](mailto:saroven11@gmail.com)
 Linkedin: [Ken's LinkedIn](https://www.linkedin.com/in/ken-saroven/)
-Github: [Ken's GitHub](https://github.com/Kensaroven)
-
