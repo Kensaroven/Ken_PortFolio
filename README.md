@@ -1,6 +1,6 @@
 # Ken Saroven - Work portfolio
 
-Ken's dsiplay of the hobby and professional works 
+Ken's display of the academic, hobby and professional works 
 
 ## Contact
 
